@@ -27,7 +27,7 @@
         }
 
         .hero-body {
-            background-image: url(./rodion-kutsaev-1382595-unsplash.jpg);
+            background-image: url(./emily-wang-1346789-unsplash.jpg);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -100,6 +100,7 @@
 <body>
 <!-- START NAV -->
 
+<a name="top"></a>
 
 <section class="hero is-info is-medium is-bold">
     <div class="hero-body">
@@ -125,6 +126,7 @@
                                  class="author-image" alt="Placeholder image">
                         </div>
                         <div class="media-content has-text-centered">
+
                             <p class="title article-title">Hi, I'm Stan!</p>
                             <p class="subtitle is-6 article-subtitle">
                                 Web Dev <a href="https://froomle.ai">@froomle.ai</a> & Student Computer Science & Data
@@ -144,10 +146,10 @@
             <div class="article">
                 <div class="breadcrumb is-centered is-medium has-bullet-separator">
                     <ul>
-                        <li><a href="#">Skills & Interests</a></li>
+                        <li><a href="#skills">Skills & Interests</a></li>
                         <li><a href="#edu">Education & Experience</a></li>
                         <li><a href="#articles">Articles</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
                     </ul>
                 </div>
 
@@ -158,7 +160,7 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content has-text-centered">
-                            <a name="edu"></a>
+                            <a name="skills"></a>
                             <h6 class="title article-title">Skills & Interests</h6>
 
                         </div>
@@ -173,27 +175,42 @@
                             <a onclick="switchSkillsTabs('Heart')" id="Heart" class="button">❤️</a>
                         </div>
                         <div id="AI_text">
-                            <div class="level">
+                            <div class="level is-mobile">
                                 <div class=" level-left level-item">
-                                    <p>Machine Learning Techniques</p>
+                                    <span>Machine Learning Techniques</span>
                                 </div>
                                 <div class="level-right level-item">
-                                    <p class="title has-text-info">9</p>
+                                    <span class="title has-text-info">9</span>
                                 </div>
                             </div>
                             <hr>
-                            <div class="level">
+                            <div class="level is-mobile">
                                 <div class=" level-left level-item">
-                                    <p>Data Visualization</p>
+                                    <span>Data Visualization</span>
                                 </div>
                                 <div class="level-right level-item">
-                                    <p class="title has-text-success">8</p>
+                                    <span class="title has-text-info">8</span>
                                 </div>
                             </div>
-                            <span>Stan</span>
-                            <progress class="progress is-info" value="45" max="100">45%</progress>
-                            <span>Stan</span>
-                            <progress class="progress is-info" value="45" max="100">45%</progress>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Machine Learning Techniques</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Data Visualization</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+
 
                         </div>
                         <div id="Web_text" style="display: none">
@@ -206,12 +223,12 @@
                             Other
                         </div>
                         <div id="Heart_text" style="display: none">
-                            <div class="level">
-                                <div class=" level-left level-item">
-                                    <p>Machine Learning Techniques</p>
+                            <div class="level is-mobile">
+                                <div class="level-left level-item">
+                                    <span class="title">❤️</span>
                                 </div>
                                 <div class="level-right level-item">
-                                    <p class="title has-text-info">❤️</p>
+                                    <span class=" has-text-info">Applications of Machine Learning️</span>
                                 </div>
                             </div>
                         </div>
@@ -345,6 +362,7 @@
                     <div class="article-body">
 
 
+                        <a name="contact"></a>
                         <h1 class="article-title is-centered"><b>Contact Stan </b></h1>
 
                         <div class="field">
@@ -394,6 +412,11 @@
                     </div>
                 </div>
             </section>
+            <div class="level">
+                <div class="level-item is-centered">
+                    <a href="#top">Bring me back to the top</a>
+                </div>
+            </div>
             <!-- END PROMO BLOCK -->
         </div>
 

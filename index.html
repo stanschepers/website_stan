@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css"/>
+	
+	<meta property="og:title" content="Studentenraad - Stan Schepers">
+	<meta property="og:image" content="/studentenverkiezingen.png">
+	
+	
     <link rel="stylesheet" type="text/css" href="/main.css">
     <style>
         html, body {
@@ -156,87 +161,173 @@
 
             </div>
 
-            <!--<div class="card article">-->
-                <!--<div class="card-content">-->
-                    <!--<div class="media">-->
-                        <!--<div class="media-content has-text-centered">-->
-                            <!--<a name="skills"></a>-->
-                            <!--<h6 class="title article-title">Skills & Interests</h6>-->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <a name="skills"></a>
+                            <h6 class="title article-title">Skills & Interests</h6>
 
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="article-body">-->
+                        </div>
+                    </div>
+                    <div class="article-body">
 
-                        <!--<div class="buttons has-addons is-centered">-->
-                            <!--<a onclick="switchSkillsTabs('AI')" id="AI" class="button is-info">AI</a>-->
-                            <!--<a onclick="switchSkillsTabs('Web')" id="Web" class="button">Web</a>-->
-                            <!--<a onclick="switchSkillsTabs('Languages')" id="Languages" class="button">Languages</a>-->
-                            <!--<a onclick="switchSkillsTabs('Other')" id="Other" class="button">...</a>-->
-                            <!--<a onclick="switchSkillsTabs('Heart')" id="Heart" class="button">❤️</a>-->
-                        <!--</div>-->
-                        <!--<div id="AI_text">-->
-                            <!--<div class="level is-mobile">-->
-                                <!--<div class=" level-left level-item">-->
-                                    <!--<span>Machine Learning Techniques</span>-->
-                                <!--</div>-->
-                                <!--<div class="level-right level-item">-->
-                                    <!--<span class="title has-text-info">9</span>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<hr>-->
-                            <!--<div class="level is-mobile">-->
-                                <!--<div class=" level-left level-item">-->
-                                    <!--<span>Data Visualization</span>-->
-                                <!--</div>-->
-                                <!--<div class="level-right level-item">-->
-                                    <!--<span class="title has-text-info">8</span>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<hr>-->
-                            <!--<div class="level is-mobile">-->
-                                <!--<div class=" level-left level-item">-->
-                                    <!--<span>Machine Learning Techniques</span>-->
-                                <!--</div>-->
-                                <!--<div class="level-right level-item">-->
-                                    <!--<span class="title has-text-info">9</span>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<hr>-->
-                            <!--<div class="level is-mobile">-->
-                                <!--<div class=" level-left level-item">-->
-                                    <!--<span>Data Visualization</span>-->
-                                <!--</div>-->
-                                <!--<div class="level-right level-item">-->
-                                    <!--<span class="title has-text-info">8</span>-->
-                                <!--</div>-->
-                            <!--</div>-->
+                        <div class="buttons has-addons is-centered">
+                            <a onclick="switchSkillsTabs('AI')" id="AI" class="button is-info">AI</a>
+                            <a onclick="switchSkillsTabs('Web')" id="Web" class="button">Web</a>
+                            <a onclick="switchSkillsTabs('Languages')" id="Languages" class="button">Languages</a>
+                            <a onclick="switchSkillsTabs('Other')" id="Other" class="button">...</a>
+                            <a onclick="switchSkillsTabs('Heart')" id="Heart" class="button">❤️</a>
+                        </div>
+                        <div id="AI_text">
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Machine Learning Techniques</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Data Visualization</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Web_text" style="display: none">
+                            <h4 class="article-subtitle">Backend frameworks</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Django</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Flask</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+
+                            <h4 class="article-subtitle">Frontend frameworks</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>VueJS</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>React</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
 
 
-                        <!--</div>-->
-                        <!--<div id="Web_text" style="display: none">-->
-                            <!--Web-->
-                        <!--</div>-->
-                        <!--<div id="Languages_text" style="display: none">-->
-                            <!--Languages-->
-                        <!--</div>-->
-                        <!--<div id="Other_text" style="display: none">-->
-                            <!--Other-->
-                        <!--</div>-->
-                        <!--<div id="Heart_text" style="display: none">-->
-                            <!--<div class="level is-mobile">-->
-                                <!--<div class="level-left level-item">-->
-                                    <!--<span class="title">❤️</span>-->
-                                <!--</div>-->
-                                <!--<div class="level-right level-item">-->
-                                    <!--<span class=" has-text-info">Applications of Machine Learning️</span>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
+                        </div>
+                        <div id="Languages_text" style="display: none">
+                            <h4 class="article-subtitle">Languaged</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Python</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">10</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>C++</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Java</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">6</span>
+                                </div>
+                            </div>
+
+                            <h4 class="article-subtitle">More Natural Languages</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Dutch</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">10</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>English</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>French</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">6</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Spanish</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">4</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Other_text" style="display: none">
+                            Other
+                        </div>
+                        <div id="Heart_text" style="display: none">
+                            <div class="level is-mobile">
+                                <div class="level-left level-item">
+                                    <span class="title">❤️</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class=" has-text-info">Applications of Machine Learning️</span>
+                                </div>
+                            </div>
+                        </div>
 
 
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+                    </div>
+                </div>
+            </div>
 
 
             <div class="card article">
@@ -283,7 +374,7 @@
                                     <p class="heading">April 2018 - December 2018</p>
                                     <p>Student Job as Frontend & Backend Developer <a href="https://froomle.ai">
                                         @Froomle </a></p>
-                                    <p><em>Froomle is a spinoff of the @UAntwerp. It builds recommendations system
+                                    <p><em>Froomle is a spinoff of the @UAntwerp. It builds recommendations systems
                                         for
                                         webshops, … by applying state-of-the-art data science and AI. I developed
                                         frontends and backends for internal and external web apps. </em></p>
@@ -345,8 +436,8 @@
                             <!--<li>-->
                             <!--<br/> <a>[Medium]</a> (Article with code)-->
                             <!--</li>-->
-                            <li>[expecting in June] Classification of Electrocardiograms with Random Forest
-                                <br/> <a>[Medium]</a> (Article with code) <a>[PDF]</a> (Full paper)
+                            <li> <b> [expecting in June] </b> Classification of Electrocardiograms with Random Forest
+                                <!--<br/> <a>[Medium]</a> (Article with code) <a>[PDF]</a> (Full paper)-->
                             </li>
                         </ol>
 

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stan Schepers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css"/>
+	
+	<meta property="og:title" content="Studentenraad - Stan Schepers">
+	<meta property="og:url" content="https://stuver.stanschepers.be">
+	<meta property="og:description" content="Stan voor Facultair Stuver van Wetenschappen">
+	<meta property="og:image" content="https://stanschepers.be/studentenverkiezingen.png">
+	
+	
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            background: #F0F2F4;
+        }
+
+        .navbar.is-white {
+            background: #F0F2F4;
+        }
+
+        .navbar-brand .brand-text {
+            font-size: 1.11rem;
+            font-weight: bold;
+        }
+
+        .hero-body {
+            background-image: url(./emily-wang-1346789-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+
+        .articles {
+            margin: 5rem 0;
+            margin-top: -200px;
+        }
+
+        .articles .content p {
+            line-height: 1.9;
+            margin: 15px 0;
+        }
+
+        .author-image {
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            width: 120px;
+            height: 120px;
+            margin-left: -60px;
+            border: 3px solid #ccc;
+            border-radius: 50%;
+        }
+
+        .media-center {
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .media-content {
+            margin-top: 3rem;
+        }
+
+        .article, .promo-block {
+            margin-top: 6rem;
+        }
+
+        div.column.is-8:first-child {
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        .article-title {
+            font-size: 2rem;
+            font-weight: lighter;
+            line-height: 2;
+        }
+
+        .article-subtitle {
+            color: #909AA0;
+            margin-bottom: 3rem;
+        }
+
+        .article-body {
+            line-height: 1.4;
+            margin: 0 7%;
+        }
+
+        .promo-block .container {
+            margin: 1rem 5rem;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+<!-- START NAV -->
+
+<a name="top"></a>
+
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <!--<h1 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed eiusmod tempor-->
+            <!--incididunt-->
+            <!--ut labore et dolore magna aliqua</h1>-->
+        </div>
+    </div>
+</section>
+
+
+<div class="container">
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-8 is-offset-2">
+            <!-- START ARTICLE -->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-center">
+                            <img src="/IMG_2108.jpeg"
+                                 class="author-image" alt="Placeholder image">
+                        </div>
+                        <div class="media-content has-text-centered">
+
+                            <p class="title article-title">Hi, I'm Stan!</p>
+                            <p class="subtitle is-6 article-subtitle">
+                                Web Dev <a href="https://froomle.ai">@froomle.ai</a> & Student Computer Science & Data
+                                Science <a
+                                    href="https://www.uantwerpen.be/en/education/education-and-training/master-data-science/profile/">@UAntwerp</a>
+                            </p>
+                            <p class="subtitle is-6 article-subtitle">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+            <div class="article">
+                <div class="breadcrumb is-centered is-medium has-bullet-separator">
+                    <ul>
+                        <li><a href="#skills">Skills & Interests</a></li>
+                        <li><a href="#edu">Education & Experience</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <a name="skills"></a>
+                            <h6 class="title article-title">Skills & Interests</h6>
+
+                        </div>
+                    </div>
+                    <div class="article-body">
+
+                        <div class="buttons has-addons is-centered">
+                            <a onclick="switchSkillsTabs('AI')" id="AI" class="button is-info">AI</a>
+                            <a onclick="switchSkillsTabs('Web')" id="Web" class="button">Web</a>
+                            <a onclick="switchSkillsTabs('Languages')" id="Languages" class="button">Languages</a>
+                            <a onclick="switchSkillsTabs('Other')" id="Other" class="button">...</a>
+                            <a onclick="switchSkillsTabs('Heart')" id="Heart" class="button">❤️</a>
+                        </div>
+                        <div id="AI_text">
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Machine Learning Techniques</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Data Visualization</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Web_text" style="display: none">
+                            <h4 class="article-subtitle">Backend frameworks</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Django</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Flask</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+
+                            <h4 class="article-subtitle">Frontend frameworks</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>VueJS</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>React</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div id="Languages_text" style="display: none">
+                            <h4 class="article-subtitle">Languaged</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Python</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">10</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>C++</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">9</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Java</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">6</span>
+                                </div>
+                            </div>
+
+                            <h4 class="article-subtitle">More Natural Languages</h4>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Dutch</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">10</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>English</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">8</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>French</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">6</span>
+                                </div>
+                            </div>
+                            <div class="level is-mobile">
+                                <div class=" level-left level-item">
+                                    <span>Spanish</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class="title has-text-info">4</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Other_text" style="display: none">
+                            Other
+                        </div>
+                        <div id="Heart_text" style="display: none">
+                            <div class="level is-mobile">
+                                <div class="level-left level-item">
+                                    <span class="title">❤️</span>
+                                </div>
+                                <div class="level-right level-item">
+                                    <span class=" has-text-info">Applications of Machine Learning️</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <a name="edu"></a>
+                            <h6 class="title article-title">Education & Experience</h6>
+                            <!--<div class="tags has-addons level-item">-->
+                            <!--<span class="tag is-rounded is-info">@skeetskeet</span>-->
+                            <!--<span class="tag is-rounded">May 10, 2018</span>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                        <div class="timeline is-centered">
+                            <!--<header class="timeline-header">-->
+                            <!--<span class="tag is-medium is-primary">Start</span>-->
+                            <!--</header>-->
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">June 2016</p>
+                                    <p>Graduated High School Latin-Mathematics</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">September 2016</p>
+                                    <p>Start Bachelor Computer Science @UAntwerp</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">February 2017</p>
+                                    <p>Student Job as System Admin & Backend Developer @Acacia (B2B Company)</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">April 2018 - December 2018</p>
+                                    <p>Student Job as Frontend & Backend Developer <a href="https://froomle.ai">
+                                        @Froomle </a></p>
+                                    <p><em>Froomle is a spinoff of the @UAntwerp. It builds recommendations systems
+                                        for
+                                        webshops, … by applying state-of-the-art data science and AI. I developed
+                                        frontends and backends for internal and external web apps. </em></p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">April 2018</p>
+                                    <p>Nano Degree Advanced Javascript by @Udacity commissioned by Google</p>
+                                </div>
+                            </div>
+                            <header class="timeline-header">
+                                <span class="tag  is-info">import __future__</span>
+                            </header>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">September 2019</p>
+                                    <p>Finished Bachelor Degree</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">September 2019</p>
+                                    <p>Start Master Computer Science @UAntwerp with a major in <b>Data Science &
+                                        AI</b>
+                                        and a minor in Entrepreneurship</p>
+                                    <p><em></em></p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">September 2021</p>
+                                    <p>Finish Master Degree</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+            <!-- START ARTICLE -->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <a name="articles"></a>
+                            <p class="title article-title">Articles</p>
+                            <p class="subtitle is-6 article-subtitle">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                        <b>2019</b>
+                        <ol>
+                            <!--<li>-->
+                            <!--<br/> <a>[Medium]</a> (Article with code)-->
+                            <!--</li>-->
+                            <li> <b> [expecting in June] </b> Classification of Electrocardiograms with Random Forest
+                                <!--<br/> <a>[Medium]</a> (Article with code) <a>[PDF]</a> (Full paper)-->
+                            </li>
+                        </ol>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+
+            <!-- START PROMO BLOCK -->
+            <section class="hero is-info is-bold is-small promo-block">
+                <div class="hero-body">
+                    <div class="article-body">
+
+
+                        <a name="contact"></a>
+                        <h1 class="article-title is-centered"><b>Contact Stan </b></h1>
+
+                        <div class="field">
+                            <label class="label has-text-white">Name</label>
+                            <div class="control">
+                                <input oninput="makeEmail()" id="name" required class="input" type="text">
+                            </div>
+                            <br>
+                            <div class="field">
+                                <label class="label has-text-white">Subject</label>
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select oninput="makeEmail()" id="subject" required>
+                                            <option disabled>Choose a subject</option>
+                                            <option selected value="Saying hello">Saying hello</option>
+                                            <option value="Grabbing a beer">Grabbing a beer</option>
+                                            <option value="Getting in touch with me">Getting in touch with me
+                                            </option>
+                                            <option value="Other">...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label has-text-white">Message</label>
+                                <div class="control">
+                                    <textarea oninput="makeEmail()" id="message" required minlength="1"
+                                              class="textarea is-error"
+                                              placeholder="e.g "></textarea>
+                                </div>
+                            </div>
+
+                            <!--<div id="error" class="field" style="display: none">-->
+                            <!--<div class="control has-text-error">-->
+                            <!--<span class="has-text-error">Please fill in all fields </span>-->
+                            <!--</div>-->
+                            <!--</div>-->
+
+
+                            <div class="field">
+                                <div class="control">
+                                    <a onclick="makeEmail()" id="mail_button" class="button is-error">Make Email</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="level">
+                <div class="level-item is-centered">
+                    <a href="#top">Bring me back to the top</a>
+                </div>
+            </div>
+            <!-- END PROMO BLOCK -->
+        </div>
+
+    </section>
+    <!-- END ARTICLE FEED -->
+</div>
+</div>
+<!--<script async type="text/javascript" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js">-->
+<!--</script>-->
+
+<script>
+
+  function makeEmail() {
+    const name = document.getElementById("name").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    // if (message === "" || name === "" || subject === "") {
+    //   document.getElementById("error").style.display = null;
+    //   return false;
+    // } else {
+    //   document.getElementById("error").style.display = "none";
+    // }
+
+    document.getElementById("mail_button").href = "mailto:stanpolschepers@gmail.com?subject="
+      + subject + "&body=" + message + "\n From " + name;
+    return false;
+  }
+
+  const TABS = ["AI", "Web", "Languages", "Other", "Heart"];
+
+  function switchSkillsTabs(selected_tab) {
+    for (const tab of TABS) {
+      if (tab !== selected_tab) {
+        document.getElementById(tab + "_text").style.display = "none";
+        document.getElementById(tab).classList.remove("is-info");
+      }
+    }
+    document.getElementById(selected_tab + "_text").style.display = null;
+    document.getElementById(selected_tab).classList.add("is-info");
+    return false;
+  }
+</script>
+
+
+</body>
+
+</html>
